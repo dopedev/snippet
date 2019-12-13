@@ -1,0 +1,15 @@
+touch //to create file
+
+git init //init as git repos
+
+git config --global user.name 'user name'
+
+git config --global user.email 'usermail'
+
+git add . // add all files
+
+git commit -m 'message'
+
+git remote add origin url
+
+git push -u origin master
